@@ -65,7 +65,17 @@ elsif age <= 18 && age > 15
 else 
     p "child"
 end
- 
+
+age = 5
+if age >= 10 && age < 20
+    p "10代です"
+elsif age >= 20 && age < 30
+    p"20代です"
+elsif age >= 30 && age < 40
+    p"30代です"
+else
+    p"対象外です"    
+end
 age = 5
 
 if age >=10 && age < 20
@@ -76,6 +86,17 @@ elsif age >=30 && age <40
     p "３0代です"
 else
     p "それ以外"
+end
+for i in 0 .. 4
+    if i == 3
+        break
+    end
+    p i 
+end
+for i in 0 .. 4
+    if i == 3
+        next
+    end
 end
 
 for i in 0 .. 4
@@ -89,12 +110,20 @@ for i in 0 ..2
         p i.to_s + "-" + j.to_s
     end
 end
+
+arr = [2,4,6,8]
+sum = 0
+for i in arr
+    sum += i
+    p sum
+end
  arr = [2,4,6,8]
  sum = 0
 
  for i in arr 
     sum += i
-    p sum
  end
- 
+ p sum
+
+
  
