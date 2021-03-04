@@ -124,6 +124,17 @@ end
     sum += i
  end
  p sum
-
-
  
+def heikin(num1,num2,num3,num4)
+    return (num1 + num2 + num3)/num4
+end
+result = heikin(9,4,2,3)
+ p result
+class Student
+    def avg(math,english)
+        p (math + english) / 2
+    end
+end
+
+average = Student.new
+average.avg(80,70)
