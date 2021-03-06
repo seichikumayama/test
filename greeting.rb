@@ -138,3 +138,4 @@ end
 
 average = Student.new
 average.avg(80,70)
+                                                                                                                                                                                                                                                                                                                                            　
